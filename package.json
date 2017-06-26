@@ -1,0 +1,16 @@
+{
+  "name": "numbers-project",
+  "version": "0.0.1",
+  "description": "doing stuff with numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "typescript": "^2.3.4"
+  }
+}
