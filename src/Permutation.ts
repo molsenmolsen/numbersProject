@@ -13,6 +13,18 @@ export class Permutation{
 		public getLength(){
 				return this.perm.length;
 		}
+		public toString():string{
+				var out = '[';
+				for (var i=0;i<this.perm.length; i++){
+				if (i<this.perm.length-1){
+						out += this.perm[i] + ',';
+				}else {
+						out += this.perm[i] ;
+				}
+				}
+				out += ']';
+				return out;				
+		}
 		public operateWith(rhs: Permutation):Permutation{
 				var newPerm = [];
 				for (var i=0; i< rhs.getLength(); i++){
